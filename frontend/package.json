@@ -1,0 +1,27 @@
+{
+  "name": "hotel-booking-3d-frontend",
+  "version": "1.0.0",
+  "description": "Hotel room booking website with 3D visualization",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src --ext ts,tsx",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "three": "^r158",
+    "gsap": "^3.12.2",
+    "framer-motion": "^10.16.4",
+    "tailwindcss": "^3.3.6",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
